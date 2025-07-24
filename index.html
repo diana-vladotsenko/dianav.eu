@@ -11,9 +11,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="assets/css/gallery.css">
 	</head>
 	<body class="is-preload">
-
 		<!-- Sidebar -->
 			<section id="sidebar">
 				<div class="inner">
@@ -30,7 +30,6 @@
 
 		<!-- Wrapper -->
 			<div id="wrapper">
-
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
@@ -40,11 +39,12 @@
 							design.</p>
 							<p><span style="font-weight: 750;">I am actively seeking an internship or work opportunity to apply my skills in Web Design and Development.</span></p>
 							<ul class="actions">
-								<li><a href="/documents/Diana Vladotsenko CV.pdf" class="button scrolly" target="_blank" style="background-color: rgb(102, 95, 201);">Check CV</a></li>
+								<li><a href="documents/Diana_Vladotsenko_Cv.pdf" class="button scrolly" target="_blank" style="background-color: rgb(102, 95, 201);">Check CV</a></li>
 								<li><a href="#two" class="button scrolly">See Skills</a></li>
 							</ul>
 						</div>
 					</section>
+
 					<!-- Two -->
 					<section id="two" class="wrapper style3 fade-up">
 						<div class="inner">
@@ -53,8 +53,7 @@
 							<div class="features">
 								<section>
 									<h3>Technical</h3>
-									<p>Figma (UI/UX Design, Prototyping, Wireframing), Python, JavaScript, HTML, CSS, SQL, Node.js,
-									Express.js, Bootstrap, MySQL, React, Java</p>
+									<p>Figma (UI/UX Design, Prototyping, Wireframing), Python, JavaScript, HTML, CSS, SQL, Node.js, Bootstrap, MySQL, React, Java</p>
 								</section>
 								<section>
 									<h3>Soft</h3>
@@ -75,9 +74,11 @@
 						</div>
 					</section>
 
-
 				<!-- One -->
 					<section id="one" class="wrapper style2 spotlights">
+					<!-- Modal -->
+
+
 						<section>
 							<a href="#one" class="image"><img src="images/cutyestickers.jpg" alt="website Management" data-position="top center" /></a>
 							<div class="content">
@@ -86,12 +87,40 @@
 									<p>An e-commerce platform designed for showcasing and selling hand-drawn digital stickers. The site offers users the ability to explore and purchase unique sticker sets. Key features include secure payment processing through Paddle and Stripe, company information, integrated social media links, and an intuitive, responsive design to ensure a seamless user experience. The design prototype is available in Figma.</p>
 									<p><span style="font-weight: 600">Tools used:</span> Figma, Bootstrap, React, HTML, CSS, JavaScript, Node.js</p>
 									<ul class="actions">
-										<li><a href="https://github.com/diana-vladotsenko/cutyestickers-website-management.git" class="button" target="_blank">See On Github</a></li>
+										<li><a href="https://github.com/diana-vladotsenko/cutyestickers-website-management.git" class="button" target="_blank">See On GitHub</a></li>
 										<li><a href="https://www.figma.com/proto/y9m5NYYKt7QsgbwXNmCG4v/Untitled?node-id=1-2&t=m2ZpDG5IEPRTmICA-1" class="button" target="_blank">See Figma Prototype</a></li>
 									</ul>
 								</div>
 							</div>
 						</section>
+
+						<section>
+							<div id="imageModal" class="elle-modal">
+								<h3 class="section-subtitle">ELLE Preview</h3>
+								<span class="elle-close" onclick="closeModal()">&times;</span>
+								<img class="elle-modal-content" id="modalImg">
+							</div>
+						<div class="elle-grid-gallery" >
+							<img src="images/elle_main.png" alt="Main view of ELLE" onclick="openModal(this)">
+							<img src="images/elle_library.png" alt="Library view in ELLE" onclick="openModal(this)">
+							<img src="images/elle_exercise_meta.png" alt="Exercise metadata in ELLE" onclick="openModal(this)">
+							<img src="images/elle_link.png" alt="Linking exercise from another website called 'https://sisuloome.e-koolikott.ee/' in ELLE" onclick="openModal(this)">
+							<img src="images/elle_exercise.png" alt="Exercise interface from another website in ELLE" onclick="openModal(this)">
+							<img src="images/added_exercise.png" alt="Added Exercise" onclick="openModal(this)">
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h2>ELLE</h2>
+								<p>ELLE is a language learning and analysis environment developed at Tallinn University, built around the Estonian Learner Language Corpus (EVKK) to support studying, teaching, and researching Estonian as a second or foreign language.</p>
+								<p><span style="font-weight: 600">Tools used:</span> Figma, React, HTML, CSS, JavaScript, Node.js</p>
+								<ul class="actions">
+									<li><a href="https://github.com/diana-vladotsenko/evkk" class="button" target="_blank">See On GitHub</a></li>
+									<li><a href="https://www.figma.com/proto/2WNmTQRrXUa9Y4OdJrBkcA/Protot%C3%BC%C3%BCpimine?node-id=35-3" class="button" target="_blank">See Figma Prototype</a></li>
+								</ul>
+							</div>
+						</div>
+					</section>
+
 						<section>
 							<a href="#one" class="image"><img src="images/curology_mockup.jpg" alt="website Management" data-position="top center" /></a>
 							<div class="content">
@@ -143,7 +172,7 @@
 									<p> A web application developed using Node.js and Express.js, featuring user authentication, session management, and database interactions for a dynamic and interactive platform. Key functionalities include file uploads, password encryption with bcrypt, and data persistence using MySQL.</p>
 									<p><span style="font-weight: 600">Tools used:</span> HTML, CSS, JavaScript, Node.js, Express.js, EJS, SQL, MariaDB.</p>
 									<ul class="actions">
-										<li><a href="https://github.com/diana-vladotsenko/nodejs-website-management.git" class="button" target="_blank">See On Github</a></li>
+										<li><a href="https://github.com/diana-vladotsenko/nodejs-website-management.git" class="button" target="_blank">See On GitHub</a></li>
 									</ul>
 								</div>
 							</div>
@@ -164,10 +193,6 @@
 											<a href="mailto:diana.vladotsenko@gmail.com">diana.vladotsenko@gmail.com</a>
 										</li>
 										<li>
-											<h3>Phone</h3>
-											<span>(+372) 5645 9877</span>
-										</li>
-										<li>
 											<h3>Social</h3>
 											<ul class="icons">
 												<li><a href="https://github.com/diana-vladotsenko" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
@@ -178,7 +203,6 @@
 							</div>
 						</div>
 					</section>
-
 			</div>
 
 		<!-- Footer -->
@@ -192,6 +216,7 @@
 			</footer>
 
 		<!-- Scripts -->
+			<script src="assets/js/gallery.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
