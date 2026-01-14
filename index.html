@@ -37,8 +37,7 @@
 							<p>Junior Full-Stack Software Engineer with hands-on internship experience building production web applications. Proven
 							ability to deliver features using React, TypeScript, Node.js, and PostgreSQL in agile environments. Strong problem-solver
 							with experience in e-commerce development, payment integrations, and collaborative team workflows.</p>
-							<p><span style="font-weight: 750;">Passionate about learning and currently seeking
-							internship or junior software engineering roles in Tallinn or remote.</span></p>
+							<p><span style="font-weight: 750;">Currently seeking internship or junior software engineering roles in Tallinn or remote.</span></p>
 							<ul class="actions">
 								<li><a href="documents/Diana_Vladotsenko_Cv.pdf" class="button scrolly" target="_blank" style="background-color: rgb(102, 95, 201);">Check CV</a></li>
 								<li><a href="#two" class="button scrolly">See Skills</a></li>
@@ -97,24 +96,48 @@
 						</section>
 
 						<section>
-							<div id="imageModal" class="elle-modal">
-								<h3 class="section-subtitle">ELLE Preview</h3>
-								<span class="elle-close" onclick="closeModal()">&times;</span>
-								<img class="elle-modal-content" id="modalImg">
-							</div>
-						<div class="elle-grid-gallery" >
-							<img src="images/elle_main.png" alt="Main view of ELLE" onclick="openModal(this)">
-							<img src="images/elle_library.png" alt="Library view in ELLE" onclick="openModal(this)">
-							<img src="images/elle_exercise_meta.png" alt="Exercise metadata in ELLE" onclick="openModal(this)">
-							<img src="images/elle_link.png" alt="Linking exercise from another website called 'https://sisuloome.e-koolikott.ee/' in ELLE" onclick="openModal(this)">
-							<img src="images/elle_exercise.png" alt="Exercise interface from another website in ELLE" onclick="openModal(this)">
-							<img src="images/added_exercise.png" alt="Added Exercise" onclick="openModal(this)">
-						</div>
 						<div class="content">
 							<div class="inner">
-								<h2>ELLE</h2>
-								<p>ELLE is a language learning and analysis environment developed at Tallinn University, built around the Estonian Learner Language Corpus (EVKK) to support studying, teaching, and researching Estonian as a second or foreign language.</p>
-								<p><span style="font-weight: 600">Tools used:</span> Figma, React, HTML, CSS, JavaScript, Node.js</p>
+								<h2>ELLE – Interactive Exercise Integration</h2>
+								<div class="gallery-container">
+									<p>ELLE is a language learning and analysis environment developed at Tallinn University, built around the Estonian Learner Language Corpus (EVKK) to support studying, teaching, and researching Estonian as a second or foreign language.</p>
+									<div class="scrollable-gallery">
+										<div class="gallery-track">
+											<div class="gallery-item">
+												<img src="images/elle_main.png" alt="Main view of ELLE" onclick="openModal(this)">
+												<p class="image-caption">Main View</p>
+											</div>
+											<div class="gallery-item">
+												<img src="images/elle_library.png" alt="Library view in ELLE" onclick="openModal(this)">
+												<p class="image-caption">Library View</p>
+											</div>
+											<div class="gallery-item">
+												<img src="images/elle_exercise_meta.png" alt="Exercise metadata in ELLE" onclick="openModal(this)">
+												<p class="image-caption">Exercise Metadata</p>
+											</div>
+											<div class="gallery-item">
+												<img src="images/elle_link.png" alt="Linking exercise from another website" onclick="openModal(this)">
+												<p class="image-caption">Linking Exercise</p>
+											</div>
+											<div class="gallery-item">
+												<img src="images/elle_exercise.png" alt="Exercise interface" onclick="openModal(this)">
+												<p class="image-caption">Exercise Interface</p>
+											</div>
+											<div class="gallery-item">
+												<img src="images/added_exercise.png" alt="Added Exercise" onclick="openModal(this)">
+												<p class="image-caption">Added Exercise</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<!-- Modal -->
+								<div id="imageModal" class="modal">
+									<span class="modal-close" onclick="closeModal()">&times;</span>
+									<img class="modal-content" id="modalImg">
+								</div>
+								
+								<p><span style="font-weight: 600">Tools used:</span> HTML, CSS, JavaScript, Node.js, React, Java, MyBatis, PostgreSQL, H5P, Jenkins, Figma</p>
 								<ul class="actions">
 									<li><a href="https://github.com/diana-vladotsenko/evkk" class="button" target="_blank">See On GitHub</a></li>
 									<li><a href="https://www.figma.com/proto/2WNmTQRrXUa9Y4OdJrBkcA/Protot%C3%BC%C3%BCpimine?node-id=35-3" class="button" target="_blank">See Figma Prototype</a></li>
@@ -122,7 +145,6 @@
 							</div>
 						</div>
 					</section>
-
 						<section>
 							<a href="#one" class="image"><img src="images/curology_mockup.jpg" alt="website Management" data-position="top center" /></a>
 							<div class="content">
