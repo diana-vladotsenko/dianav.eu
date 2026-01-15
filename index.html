@@ -82,23 +82,91 @@
 					<section id="one" class="wrapper style2 spotlights">
 					<!-- Modal -->
 
-
-						<section>
-						<a href="#one" class="image"><img src="images/cutyestickers.jpg" alt="CutyeSticker Shop e-commerce platform" data-position="top center" loading="lazy" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>CutyeSticker Shop</h2>
-									<p>An e-commerce platform designed for showcasing and selling hand-drawn digital stickers. The site offers users the ability to explore and purchase unique sticker sets. Key features include secure payment processing through Paddle and Stripe, company information, integrated social media links, and an intuitive, responsive design to ensure a seamless user experience. The design prototype is available in Figma.</p>
-									<p><span style="font-weight: 600">Tools used:</span> Figma, Bootstrap, React, HTML, CSS, JavaScript, Node.js</p>
-									<ul class="actions">
-										<li><a href="https://github.com/diana-vladotsenko/cutyestickers-website-management.git" class="button" target="_blank" aria-label="View CutyeSticker Shop source code on GitHub">See On GitHub</a></li>
-										<li><a href="https://www.figma.com/proto/y9m5NYYKt7QsgbwXNmCG4v/Untitled?node-id=1-2&t=m2ZpDG5IEPRTmICA-1" class="button" target="_blank">See Figma Prototype</a></li>
-									</ul>
+					<section>
+						<div class="content">
+							<div class="inner">
+								<h2>Apartment Association Portal</h2>
+								<div class="gallery-container">
+									<p>Web portal for apartment associations to manage residents, announcements, community worries, and meetings with role based access control, built with Next.js and Supabase.</p>
+									<div class="scrollable-gallery">
+										<div class="gallery-track">
+											<div class="gallery-item">
+												<img src="images/apartment_association/as_main_view.png" alt="Main view" onclick="openModal(this)" loading="lazy">
+												<p class="image-caption">Main View</p>
+											</div>
+											<div class="gallery-item">
+												<img src="images/apartment_association/as_login_form.png" alt="Login form" onclick="openModal(this)" loading="lazy">
+												<p class="image-caption">Login Form</p>
+											</div>
+											<div class="gallery-item">
+												<img src="images/apartment_association/as_sign_up_form.png" alt="Sign up form" onclick="openModal(this)" loading="lazy">
+												<p class="image-caption">Sign Up Form</p>
+											</div>
+											<div class="gallery-item">
+												<img src="images/apartment_association/as_forgot_password.png" alt="Forgot password" onclick="openModal(this)" loading="lazy">
+												<p class="image-caption">Forgot Password</p>
+											</div>
+											<div class="gallery-item">
+												<img src="images/apartment_association/as_admin_meetings_notices.png" alt="Admin meetings and notices" onclick="openModal(this)" loading="lazy">
+												<p class="image-caption">Admin Dashboard</p>
+											</div>
+											<div class="gallery-item">
+												<img src="images/apartment_association/as_admin_create_notice.png" alt="Admin create notice" onclick="openModal(this)" loading="lazy">
+												<p class="image-caption">Admin Create Notice</p>
+											</div>
+											<div class="gallery-item">
+												<img src="images/apartment_association/as_edit_notice.png" alt="Edit notice" onclick="openModal(this)" loading="lazy">
+												<p class="image-caption">Admin Edit Notice</p>
+											</div>
+											<div class="gallery-item">
+												<img src="images/apartment_association/as_admin_create_meeting.png" alt="Admin create meeting" onclick="openModal(this)" loading="lazy">
+												<p class="image-caption">Admin Create Meeting</p>
+											</div>
+											<div class="gallery-item">
+												<img src="images/apartment_association/as_edit_meeting.png" alt="Edit meeting" onclick="openModal(this)" loading="lazy">
+												<p class="image-caption">AdminEdit Meeting</p>
+											</div>
+											<div class="gallery-item">
+												<img src="images/apartment_association/as_admin_residents.png" alt="Admin residents view" onclick="openModal(this)" loading="lazy">
+												<p class="image-caption">Admin Manage Residents</p>
+											</div>
+											<div class="gallery-item">
+												<img src="images/apartment_association/as_admin_worries.png" alt="Admin worries view" onclick="openModal(this)" loading="lazy">
+												<p class="image-caption">Admin Worries</p>
+											</div>
+											<div class="gallery-item">
+												<img src="images/apartment_association/as_resident_notices.png" alt="Resident notices view" onclick="openModal(this)" loading="lazy">
+												<p class="image-caption">Resident Notices</p>
+											</div>
+											<div class="gallery-item">
+												<img src="images/apartment_association/as_resident_worries.png" alt="Resident worries view" onclick="openModal(this)" loading="lazy">
+												<p class="image-caption">Resident Worries</p>
+											</div>
+											<div class="gallery-item">
+												<img src="images/apartment_association/as_resident_create_worry.png" alt="Resident create worry" onclick="openModal(this)" loading="lazy">
+												<p class="image-caption">Resident Create Worry</p>
+											</div>
+										</div>
+									</div>
 								</div>
-							</div>
-						</section>
+								
+								<!-- Modal -->
+								<div id="imageModal" class="modal">
+									<span class="modal-close" onclick="closeModal()">&times;</span>
+									<img class="modal-content" id="modalImg">
+								</div>
+								
+								<p><span style="font-weight: 600">Tools used:</span>JavaScript, TypeScript, React, Next.js, Node.js, PostgreSQL, Supabase</p>
+								<ul class="actions">
+									<li><a href="https://apartment-association-notice-portal-f44tdiz89.vercel.app" class="button" target="_blank">Live Demo</a></li>
+									<li><a href="https://github.com/diana-vladotsenko/apartment-association-notice-portal/tree/main" class="button" target="_blank" aria-label="View ELLE project source code on GitHub">See On GitHub</a></li>
 
-						<section>
+								</ul>
+							</div>
+						</div>
+					</section>						
+
+					<section>
 						<div class="content">
 							<div class="inner">
 								<h2>ELLE – Interactive Exercise Integration</h2>
@@ -148,6 +216,23 @@
 							</div>
 						</div>
 					</section>
+
+					<section>
+						<a href="#one" class="image"><img src="images/cutyestickers.jpg" alt="CutyeSticker Shop e-commerce platform" data-position="top center" loading="lazy" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>CutyeSticker Shop</h2>
+									<p>An e-commerce platform designed for showcasing and selling hand-drawn digital stickers. The site offers users the ability to explore and purchase unique sticker sets. Key features include secure payment processing through Paddle and Stripe, company information, integrated social media links, and an intuitive, responsive design to ensure a seamless user experience. The design prototype is available in Figma.</p>
+									<p><span style="font-weight: 600">Tools used:</span> Figma, Bootstrap, React, HTML, CSS, JavaScript, Node.js</p>
+									<ul class="actions">
+										<li><a href="https://github.com/diana-vladotsenko/cutyestickers-website-management.git" class="button" target="_blank" aria-label="View CutyeSticker Shop source code on GitHub">See On GitHub</a></li>
+										<li><a href="https://www.figma.com/proto/y9m5NYYKt7QsgbwXNmCG4v/Untitled?node-id=1-2&t=m2ZpDG5IEPRTmICA-1" class="button" target="_blank">See Figma Prototype</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+
+
 						<section>
 						<a href="#one" class="image"><img src="images/curology_mockup.jpg" alt="Curology mobile app design mockup" data-position="top center" loading="lazy" /></a>
 							<div class="content">
